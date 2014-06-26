@@ -30,3 +30,31 @@ Just call `StaticMarkdownYAML.installGitWebhook(route_path)`, e.g.,
 `StaticMarkdownYAML.installGitWebhook('/__github_webhook_for_static')`, on server code. To avoid opening a possible DOS window, I recommend you keep your webhook address secret.
 
 If you're a rare bastion of sanity and you're using Bazaar or Mercurial or whatever, you may copy the code in `webhook.coffee` to base your own webhook route on.
+
+## License
+
+You may use and redistribute this package, according to the terms of [The MIT license](http://opensource.org/licenses/MIT).
+
+Copyright © 2014 Lalo Martins
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+## Thanks
+
+This package was developed for, and therefore sponsored by, the [Lavapolis](http://lavapolis.com) project. Thanks to [Michael Schindhelm](http://michaelschindhelm.com/) and his staff, and [State](http://s-t-a-t-e.com), for agreeing to release some components as Open Source/Free packages.
