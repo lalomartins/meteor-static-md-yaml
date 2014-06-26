@@ -1,6 +1,6 @@
 {
     "name": "static-md-yaml",
-    "summary": "Read static Markdown+YAML files and publish them as a collection",
+    "description": "Read static Markdown+YAML files and publish them as a collection",
     "homepage": "https://github.com/lalomartins/meteor-static-md-yaml",
     "git": "https://github.com/lalomartins/meteor-static-md-yaml",
     "author": "Lalo Martins <lalo.martins@gmail.com> (http://lalomartins.info)",
