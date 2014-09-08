@@ -10,7 +10,7 @@ Well, here it is for Meteor! It even updates the data if the files change.
 
 ## Using it
 
-- Install the package (manually, with [Meteor-shower](https://github.com/lalomartins/meteor-shower), or Meteorite).
+- Install the package (`meteor add lalomartins:static-md-yaml`).
 - Set a variable `STATIC_ROOT` in your Meteor settings or environment, pointing to the directory where your static files are.
 - Front matter is delimited by two `---` lines, one before (that is, the first line in the file) and one after.
 - If you don't need any text in the file, just YAML, it still needs to be delimited before and after; otherwise the parser will assume it's all Markdown.
